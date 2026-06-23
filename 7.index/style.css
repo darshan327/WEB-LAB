@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+
+    background-image: url("logo.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 5px white;
+    color: black;
+    margin-top: 20px;
+}
+
+.container{
+    width: 300px;
+    margin: 20px auto;
+    background-color: darkgrey;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input{
+    width: 100%;
+    height: 75px;
+    font-size: 30px;
+    text-align: right;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0 10px;
+}
+
+button{
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    background-color: #eee;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightblue;
+}
