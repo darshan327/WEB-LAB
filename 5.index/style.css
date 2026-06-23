@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.heading{
+    color: blue;
+}
+
+/* Font Styles */
+
+.normal{
+    font-style: normal;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.small-caps{
+    font-variant: small-caps;
+}
+
+/* Link Styles */
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+/* Visibility */
+
+.hidden-element{
+    visibility: hidden;
+}
+
+/* Background */
+
+.bg{
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    background-image: url("image.jpg");
+}
+
+.repeat{
+    background-repeat: repeat;
+}
+
+.norepeat{
+    background-repeat: no-repeat;
+}
